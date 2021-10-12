@@ -1,0 +1,6 @@
+export { inlineStyle, InlineStyleSource } from './src/general-functions/inline-style'
+export { moveElements, MoveElementsSource, MoveElementsTarget } from './src/general-functions/move-elements'
+export { inlineGlobalStylesInHead } from './src/specific/inline-global-styles-in-head'
+export { moveExtStylesToBody } from './src/specific/move-ext-styles-to-body'
+export { moveScriptsToBody } from './src/specific/move-scripts-to-body'
+export { shortenNgAttributes, shortenNgAttributesAsync } from './src/specific/shorten-ng-attributes'
