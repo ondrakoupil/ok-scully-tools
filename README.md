@@ -4,6 +4,14 @@ This is a set of tools and plugins to use with [Scully.io](https://scully.io/)
 
 It is personal, highly unstable and not well tested. I warned you.
 
+## Requisites
+
+Checkout as submodule into your project.
+
+Add to dev dependencies (if not already there):
+ - jsdom
+ - @types/jsdom
+
 ## General functions
 
  - `inlineStyle()` - inline `<link>` directly into the prerendered page
